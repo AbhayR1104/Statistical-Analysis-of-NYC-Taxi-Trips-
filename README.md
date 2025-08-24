@@ -17,9 +17,9 @@ The goal of this project was to apply a wide range of statistical techniques to 
 
 ### Data Preprocessing
 
-**Dataset Cleaning**: Removed trips with zero distance and handled negative or zero values in key columns by marking them as `NaN` for imputation. 
-**Outlier Detection**: Applied Tukey's rule ($\alpha=1.5$) to detect and handle outliers in `passenger_count`, `trip_duration`, and `fare_amount`. 
-**Linear Interpolation**: Filled missing values by performing linear interpolation sorted by pickup time, scaled by trip distance to ensure realistic estimates.
+* **Dataset Cleaning**: Removed trips with zero distance and handled negative or zero values in key columns by marking them as `NaN` for imputation. 
+* **Outlier Detection**: Applied Tukey's rule ($\alpha=1.5$) to detect and handle outliers in `passenger_count`, `trip_duration`, and `fare_amount`. 
+* **Linear Interpolation**: Filled missing values by performing linear interpolation sorted by pickup time, scaled by trip distance to ensure realistic estimates.
 
 ---
 

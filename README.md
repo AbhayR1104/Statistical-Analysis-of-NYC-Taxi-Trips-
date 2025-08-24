@@ -27,12 +27,12 @@ The goal of this project was to apply a wide range of statistical techniques to 
 
 A series of statistical tests and models were built to analyze the data:
 
-**Hypothesis Testing (t-test, Z-test, Wald's test)**: Conducted tests to determine if there was a statistically significant difference in the mean `trip_distance` and `fare_amount` between February and March.
-**Distribution Comparison (K-S & Permutation Tests)**: Used 1-sample and 2-sample K-S tests, as well as a permutation test, to check if `trip_duration` and `fare_amount` follow the same distribution.
-**Linear Regression**: Built regression models to predict `total_amount` using `trip_distance` and `trip_duration`, both separately and together, evaluating the models with SSE and MAPE.
-**Time Series Analysis**: Predicted the median `total_amount` for the final day of the dataset using AR(2), AR(3), EWMA, and SMA models on the daily median trip amounts. [cite: 76, 77, 79]
-**Chi-Square Test**: Investigated the dependency between `tip_amount` and `passenger_count` by categorizing them as "high" or "low" based on their median values. [cite: 86, 87]
-**Bayesian Inference**: Modeled the `trip_distance` using Bayesian methods, starting with a Normal prior for the mean and updating it to find the posterior distribution after observing data from two consecutive months.
+* **Hypothesis Testing (t-test, Z-test, Wald's test)**: Conducted tests to determine if there was a statistically significant difference in the mean `trip_distance` and `fare_amount` between February and March.
+* **Distribution Comparison (K-S & Permutation Tests)**: Used 1-sample and 2-sample K-S tests, as well as a permutation test, to check if `trip_duration` and `fare_amount` follow the same distribution.
+* **Linear Regression**: Built regression models to predict `total_amount` using `trip_distance` and `trip_duration`, both separately and together, evaluating the models with SSE and MAPE.
+* **Time Series Analysis**: Predicted the median `total_amount` for the final day of the dataset using AR(2), AR(3), EWMA, and SMA models on the daily median trip amounts. 
+* **Chi-Square Test**: Investigated the dependency between `tip_amount` and `passenger_count` by categorizing them as "high" or "low" based on their median values. 
+* **Bayesian Inference**: Modeled the `trip_distance` using Bayesian methods, starting with a Normal prior for the mean and updating it to find the posterior distribution after observing data from two consecutive months.
 
 ---
 
